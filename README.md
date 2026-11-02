@@ -88,6 +88,19 @@ from the result. It logs actions and observations, not private chain-of-thought.
    known facts. Repeat questions and keep model, prompt, and scoring fixed.
    This helps test whether retrieval caused an improvement in this experiment;
    one run does not establish a universal claim.
+7. **Chunks and context:** documents are split into passages for search. The
+   model can only consider a limited amount of text at once, so chunk size and
+   how much context is added both matter.
+8. **Hallucinations and evaluation:** a confident answer can still be wrong.
+   Check whether the retrieved passage supports the answer, and score retrieval
+   quality separately from answer quality using a few questions with known
+   answers.
+9. **Prompts and agents:** prompts provide instructions and context. An agent
+   wraps a model in a tool-use loop; tools need limits because they can take
+   actions. Temperature changes output variety, not factual knowledge.
+
+For a guided explanation of these ideas, continue with steps 7–11 in
+[`LESSONS.md`](LESSONS.md).
 
 ## Notes and privacy
 
