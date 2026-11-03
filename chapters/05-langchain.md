@@ -1,4 +1,4 @@
-# Chapter 1: LangChain — connect the AI building blocks
+# Chapter 5: LangChain — connect the AI building blocks
 
 ## The idea
 

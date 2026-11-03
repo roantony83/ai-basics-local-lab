@@ -1,4 +1,4 @@
-# Chapter 3: LangSmith — see and evaluate what happened
+# Chapter 7: LangSmith — see and evaluate what happened
 
 ## The idea
 

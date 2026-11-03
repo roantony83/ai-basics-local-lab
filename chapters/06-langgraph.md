@@ -1,4 +1,4 @@
-# Chapter 2: LangGraph — make the workflow visible
+# Chapter 6: LangGraph — make the workflow visible
 
 ## The idea
 

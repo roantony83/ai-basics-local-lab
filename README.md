@@ -102,18 +102,26 @@ from the result. It logs actions and observations, not private chain-of-thought.
 For a guided explanation of these ideas, continue with steps 7–11 in
 [`LESSONS.md`](LESSONS.md).
 
-## Next chapters: LangChain, LangGraph, and LangSmith
+## Chapters: understand RAG, then grow the app
 
-These are optional next steps after you understand the current local RAG flow.
-The existing lab remains small and runs locally; the chapters explain how to
-grow it without requiring these frameworks in the starter setup.
+Start with the ideas behind the local RAG demo, then move on to frameworks.
+The existing lab remains small and local; the later chapters are a learning
+path and do not add dependencies to the starter setup.
 
-1. [Chapter 1: LangChain](chapters/01-langchain.md) — connect reusable pieces
+1. [Chapter 1: Chunking](chapters/01-chunking.md) — split documents into
+   useful passages.
+2. [Chapter 2: Embeddings](chapters/02-embeddings.md) — represent text as
+   number patterns that can be compared.
+3. [Chapter 3: Vector search](chapters/03-vector-search.md) — find passages
+   whose embeddings are close to the question's embedding.
+4. [Chapter 4: RAG](chapters/04-rag.md) — retrieve passages and give them to
+   the model as context for its answer.
+5. [Chapter 5: LangChain](chapters/05-langchain.md) — connect reusable pieces
    such as prompts, models, document loaders, embeddings, and retrievers.
-2. [Chapter 2: LangGraph](chapters/02-langgraph.md) — turn a fixed sequence
-   into a workflow with steps, shared state, and explicit choices.
-3. [Chapter 3: LangSmith](chapters/03-langsmith.md) — inspect runs and evaluate
-   answer quality; tracing is an optional observability step.
+6. [Chapter 6: LangGraph](chapters/06-langgraph.md) — organize steps, shared
+   state, and decision paths.
+7. [Chapter 7: LangSmith](chapters/07-langsmith.md) — inspect runs and evaluate
+   answer quality; tracing is optional and may send data to a hosted service.
 
 ## Notes and privacy
 

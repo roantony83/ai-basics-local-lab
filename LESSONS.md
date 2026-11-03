@@ -98,18 +98,22 @@ An agent adds a loop around a model so it can choose tools and use their results
 Start with read-only tools and explicit limits, because a tool may have real
 side effects.
 
-## Next: grow the lab with LangChain, LangGraph, and LangSmith
+## Next: learn the RAG building blocks, then the frameworks
 
-These are three separate tools in the LangChain ecosystem, and each solves a
-different problem. Learn them in this order after understanding this lab's
-plain-Python RAG flow:
+Read the chapters in order. The first four explain the pieces already used by
+the plain-Python demo; the last three introduce tools for building, controlling,
+and observing larger applications:
 
-1. [LangChain](chapters/01-langchain.md) organizes reusable AI application
-   pieces such as models, prompts, document loaders, and retrievers.
-2. [LangGraph](chapters/02-langgraph.md) makes multi-step flows explicit with
-   nodes, shared state, and routes between steps.
-3. [LangSmith](chapters/03-langsmith.md) helps inspect runs and measure
-   application quality. It is optional; the starter does not enable tracing.
+1. [Chunking](chapters/01-chunking.md) splits long documents into passages.
+2. [Embeddings](chapters/02-embeddings.md) represent passages and queries as
+   numbers that can be compared.
+3. [Vector search](chapters/03-vector-search.md) finds passages with similar
+   embeddings.
+4. [RAG](chapters/04-rag.md) combines retrieval with model-generated answers.
+5. [LangChain](chapters/05-langchain.md) organizes reusable AI app pieces.
+6. [LangGraph](chapters/06-langgraph.md) controls multi-step workflows.
+7. [LangSmith](chapters/07-langsmith.md) helps inspect runs and evaluate
+   quality; the starter does not enable tracing.
 
-The progression is: understand the pieces, control the workflow, then observe
-and evaluate it. Keep the current local version as a baseline for comparison.
+The progression is: understand the pieces, connect them, control the workflow,
+then observe and evaluate it. Keep the current local version as a baseline.
