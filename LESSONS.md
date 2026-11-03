@@ -97,3 +97,19 @@ varied outputs are; it does not make an answer more knowledgeable or factual.
 An agent adds a loop around a model so it can choose tools and use their results.
 Start with read-only tools and explicit limits, because a tool may have real
 side effects.
+
+## Next: grow the lab with LangChain, LangGraph, and LangSmith
+
+These are three separate tools in the LangChain ecosystem, and each solves a
+different problem. Learn them in this order after understanding this lab's
+plain-Python RAG flow:
+
+1. [LangChain](chapters/01-langchain.md) organizes reusable AI application
+   pieces such as models, prompts, document loaders, and retrievers.
+2. [LangGraph](chapters/02-langgraph.md) makes multi-step flows explicit with
+   nodes, shared state, and routes between steps.
+3. [LangSmith](chapters/03-langsmith.md) helps inspect runs and measure
+   application quality. It is optional; the starter does not enable tracing.
+
+The progression is: understand the pieces, control the workflow, then observe
+and evaluate it. Keep the current local version as a baseline for comparison.

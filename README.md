@@ -102,6 +102,19 @@ from the result. It logs actions and observations, not private chain-of-thought.
 For a guided explanation of these ideas, continue with steps 7–11 in
 [`LESSONS.md`](LESSONS.md).
 
+## Next chapters: LangChain, LangGraph, and LangSmith
+
+These are optional next steps after you understand the current local RAG flow.
+The existing lab remains small and runs locally; the chapters explain how to
+grow it without requiring these frameworks in the starter setup.
+
+1. [Chapter 1: LangChain](chapters/01-langchain.md) — connect reusable pieces
+   such as prompts, models, document loaders, embeddings, and retrievers.
+2. [Chapter 2: LangGraph](chapters/02-langgraph.md) — turn a fixed sequence
+   into a workflow with steps, shared state, and explicit choices.
+3. [Chapter 3: LangSmith](chapters/03-langsmith.md) — inspect runs and evaluate
+   answer quality; tracing is an optional observability step.
+
 ## Notes and privacy
 
 The sample notes in `notes/` are the searchable knowledge base. Add small plain
